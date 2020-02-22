@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TrangChu"
+    tools:showIn="@layout/app_bar_trang_chu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_dkhkp"
+                android:text="ĐĂNG KÝ HỌC KỲ PHỤ"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="30dp"
+                android:background="#E33539"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_dkxt"
+                android:layout_marginTop="16dp"
+                android:background="#FF6600"
+                android:textColor="#fff"
+                android:text="ĐĂNG KÝ XÉT TUYỂN"
+                android:padding="30dp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_tracuuhoso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#F1AF00"
+                android:padding="30dp"
+                android:text="TRA CỨU HỒ SƠ"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btn_tthv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="30dp"
+                android:background="#00CC33"
+                android:textColor="#fff"
+                android:text="THÔNG TIN HỌC VỤ"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn_thanhtoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#2E5DAC"
+                android:padding="30dp"
+                android:text="THANH TOÁN"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btn_qlcn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="30dp"
+                android:background="#333399"
+                android:textColor="#fff"
+                android:text="QUẢN LÝ THÔNG TIN CÁ NHÂN"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+            <Button
+                android:id="@+id/btn_qlds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="30dp"
+                android:background="#CC0099"
+                android:textColor="#fff"
+                android:text="QUẢN LÝ DANH SÁCH SINH VIÊN"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

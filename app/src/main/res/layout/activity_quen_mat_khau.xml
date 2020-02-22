@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hinhchao1"
+    tools:context=".QuenMatKhau">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+        <TextView
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="QUÊN MẬT KHẨU"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:background="@drawable/bogoc_khungct"
+            android:textColorHint="#7388C1"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:drawableRight="@drawable/ic_email_black_24dp"
+            android:inputType="number"
+            android:maxLength="11"
+            />
+        <Button
+            android:id="@+id/btn_gui"
+            android:text="GỬI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bogoc_dkpage"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tv_dn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quay lại trang đăng nhập?"
+            android:textSize="23sp"
+            android:textColor="#FFFF99"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</LinearLayout>

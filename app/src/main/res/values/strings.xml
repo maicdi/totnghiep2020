@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SinhVien</string>
+    <string name="title_activity_trang_chu">Trang Chủ</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Tên sinh vien</string>
+    <string name="nav_header_subtitle">MSSV</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <!--<string name="action_settings">Cài đặt</string>-->
+    <string name="action_dx">Đăng xuất</string>
+
+    <!--<string name="menu_home">Home</string>-->
+    <!--<string name="menu_gallery">Gallery</string>-->
+    <!--<string name="menu_slideshow">Slideshow</string>-->
+    <!--<string name="menu_tools">Tools</string>-->
+    <!--<string name="menu_share">Share</string>-->
+    <!--<string name="menu_send">Send</string>-->
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_dk">Đăng ký học kỳ phụ</string>
+    <string name="menu_dkxt">Đăng ký xét tuyển</string>
+    <string name="menu_tchs">Tra cứu hồ sơ</string>
+    <string name="menu_tthv">Thông tin học vụ</string>
+    <string name="menu_tt">Thanh toán</string>
+    <string name="menu_qlcn">Quản lý thông tin cá nhân</string>
+    <string name="menu_qlsv">Quản lý danh sách sinh viên</string>
+    <string name="title_activity_dkxt">Dkxt</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_dang_ky_xet_tuyen">DangKyXetTuyen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="menu_tools">Tools</string>-->
+    <!--<string name="menu_share">Share</string>-->
+    <!--<string name="menu_send">Send</string>-->
+</resources>
