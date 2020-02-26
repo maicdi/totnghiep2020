@@ -112,7 +112,7 @@
                     android:background="@drawable/bogoc_xemdiem"
                     android:text="Xem điểm"
                     android:textColor="#fff"
-                    android:textSize="20dp" />
+                    android:textSize="18dp" />
             </LinearLayout>
 
         <TableLayout
@@ -125,7 +125,8 @@
             android:collapseColumns="">
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@drawable/duongvien">
                 <TableLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -219,16 +220,14 @@
                                 android:layout_height="wrap_content"
                                 android:text="NĂM HỌC"
                                 android:textSize="18sp"
+                                android:background="@drawable/duongvien"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:textColor="#7388C1"/>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
                                 android:text="HỌC KỲ"
+                                android:background="@drawable/duongvien"
                                 android:textSize="18sp"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
@@ -238,11 +237,13 @@
                                 android:text="MÔN"
                                 android:textSize="18sp"
                                 android:padding="10dp"
+                                android:background="@drawable/duongvien"
                                 android:textColor="#7388C1"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="QUÁ TRÌNH"
+                                android:background="@drawable/duongvien"
                                 android:textSize="18sp"
                                 android:layout_span="2"
                                 android:padding="10dp"
@@ -251,6 +252,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="CUỐI KỲ"
+                                android:background="@drawable/duongvien"
                                 android:textSize="18sp"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
@@ -260,6 +262,7 @@
                                 android:text="ĐTB"
                                 android:textSize="18sp"
                                 android:layout_span="2"
+                                android:background="@drawable/duongvien"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
                             <TextView
@@ -267,7 +270,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="XẾP LOẠI"
                                 android:textSize="18sp"
-                                android:layout_span="2"
+                                android:background="@drawable/duongvien"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
                         </LinearLayout>
@@ -283,17 +286,14 @@
                                 android:layout_height="wrap_content"
                                 android:text="NĂM HỌC"
                                 android:textSize="18sp"
-
+                                android:background="@drawable/duongvien"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:textColor="#7388C1"/>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
                                 android:text="HỌC KỲ"
+                                android:background="@drawable/duongvien"
                                 android:textSize="18sp"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
@@ -301,6 +301,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="MÔN"
+                                android:background="@drawable/duongvien"
                                 android:textSize="18sp"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
@@ -309,6 +310,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="QUÁ TRÌNH"
                                 android:textSize="18sp"
+                                android:background="@drawable/duongvien"
                                 android:layout_span="2"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
@@ -316,6 +318,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="CUỐI KỲ"
+                                android:background="@drawable/duongvien"
                                 android:textSize="18sp"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
@@ -326,17 +329,20 @@
                                 android:textSize="18sp"
                                 android:layout_span="2"
                                 android:padding="10dp"
+                                android:background="@drawable/duongvien"
                                 android:textColor="#7388C1"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="XẾP LOẠI"
                                 android:textSize="18sp"
+                                android:background="@drawable/duongvien"
                                 android:layout_span="2"
                                 android:padding="10dp"
                                 android:textColor="#7388C1"/>
                         </LinearLayout>
-                    </TableRow><TableRow>
+                    </TableRow>
+                    <TableRow>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -347,36 +353,35 @@
                             android:layout_height="wrap_content"
                             android:text="NĂM HỌC"
                             android:textSize="18sp"
+                            android:background="@drawable/duongvien"
                             android:padding="10dp"
-                            android:textColor="#7388C1"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:textColor="#7388C1"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="MÔN"
+                            android:text="HỌC KỲ"
                             android:textSize="18sp"
                             android:padding="10dp"
+                            android:background="@drawable/duongvien"
                             android:textColor="#7388C1"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="10dp"
-                            android:text="HỌC KỲ"
+                            android:text="MÔN"
+                            android:background="@drawable/duongvien"
                             android:textColor="#7388C1"
                             android:textSize="18sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_span="2"
                             android:padding="10dp"
                             android:text="QUÁ TRÌNH"
                             android:textColor="#7388C1"
+                            android:background="@drawable/duongvien"
                             android:textSize="18sp" />
 
                         <TextView
@@ -385,6 +390,7 @@
                             android:text="CUỐI KỲ"
                             android:textSize="18sp"
                             android:padding="10dp"
+                            android:background="@drawable/duongvien"
                             android:textColor="#7388C1"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -392,6 +398,7 @@
                             android:text="ĐTB"
                             android:textSize="18sp"
                             android:layout_span="2"
+                            android:background="@drawable/duongvien"
                             android:padding="10dp"
                             android:textColor="#7388C1"/>
                         <TextView
@@ -401,6 +408,7 @@
                             android:textSize="18sp"
                             android:layout_span="2"
                             android:padding="10dp"
+                            android:background="@drawable/duongvien"
                             android:textColor="#7388C1"/>
                     </LinearLayout>
                 </TableRow>
