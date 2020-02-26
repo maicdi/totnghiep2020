@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hinhchao1"
+    tools:context=".Diemcanhan">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:background="#DA322833">
+        <TextView
+            android:text="ĐIỂM CÁ NHÂN"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bogoc_khungct"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Học kỳ:"
+                    android:textColorHint="#7388C1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <Spinner
+                    android:id="@+id/spn_hk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></Spinner>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bogoc_khungct"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Năm học:"
+                    android:textColorHint="#7388C1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spn_namhoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></Spinner>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bogoc_khungct"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Môn:"
+                        android:textColorHint="#7388C1"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <Spinner
+                        android:id="@+id/spn_mon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></Spinner>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn_xemdiem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bogoc_xemdiem"
+                    android:text="Xem điểm"
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bogoc_khungct"
+            android:layout_marginTop="25dp"
+            android:stretchColumns="*"
+            android:shrinkColumns="2"
+            android:collapseColumns="">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                    <TableRow>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:background="#CB635E5E"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NĂM HỌC"
+                                android:layout_span="2"
+                                android:textSize="18sp"
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:padding="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="HỌC KỲ"
+                                android:layout_span="2"
+                                android:textSize="18sp"
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:padding="10dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="10dp"
+                                android:text="MÔN"
+                                android:layout_span="2"
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="QUÁ TRÌNH"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:layout_span="2"
+                                android:textColor="#fff"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="CUỐI KỲ"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:layout_span="2"
+                                android:textColor="#fff"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ĐTB"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:layout_span="2"
+                                android:textColor="#fff"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="XẾP LOẠI"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:layout_span="2"
+                                android:textColor="#fff"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:stretchColumns="*">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NĂM HỌC"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="HỌC KỲ"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="MÔN"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="QUÁ TRÌNH"
+                                android:textSize="18sp"
+                                android:layout_span="2"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="CUỐI KỲ"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ĐTB"
+                                android:textSize="18sp"
+                                android:layout_span="2"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="XẾP LOẠI"
+                                android:textSize="18sp"
+                                android:layout_span="2"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:stretchColumns="*">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NĂM HỌC"
+                                android:textSize="18sp"
+
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="HỌC KỲ"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="MÔN"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="QUÁ TRÌNH"
+                                android:textSize="18sp"
+                                android:layout_span="2"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="CUỐI KỲ"
+                                android:textSize="18sp"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ĐTB"
+                                android:textSize="18sp"
+                                android:layout_span="2"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="XẾP LOẠI"
+                                android:textSize="18sp"
+                                android:layout_span="2"
+                                android:padding="10dp"
+                                android:textColor="#7388C1"/>
+                        </LinearLayout>
+                    </TableRow><TableRow>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:stretchColumns="*">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NĂM HỌC"
+                            android:textSize="18sp"
+                            android:padding="10dp"
+                            android:textColor="#7388C1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#7388C1"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MÔN"
+                            android:textSize="18sp"
+                            android:padding="10dp"
+                            android:textColor="#7388C1"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="HỌC KỲ"
+                            android:textColor="#7388C1"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_span="2"
+                            android:padding="10dp"
+                            android:text="QUÁ TRÌNH"
+                            android:textColor="#7388C1"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CUỐI KỲ"
+                            android:textSize="18sp"
+                            android:padding="10dp"
+                            android:textColor="#7388C1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ĐTB"
+                            android:textSize="18sp"
+                            android:layout_span="2"
+                            android:padding="10dp"
+                            android:textColor="#7388C1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="XẾP LOẠI"
+                            android:textSize="18sp"
+                            android:layout_span="2"
+                            android:padding="10dp"
+                            android:textColor="#7388C1"/>
+                    </LinearLayout>
+                </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+        </TableLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_thoat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bogochuyfull"
+            android:gravity="center"
+            android:text="thoát"
+            android:textColor="#FFFF99"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

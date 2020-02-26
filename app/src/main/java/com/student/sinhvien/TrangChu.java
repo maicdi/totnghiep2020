@@ -25,12 +25,20 @@ import android.widget.Button;
 
 public class TrangChu extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    private Button buttondkhkp, buttondkxt, buttonthanhtoan,buttontthv,btntchs;
+    private Button buttondkhkp, buttondkxt, buttonthanhtoan,buttontthv,btntchs, btnQlttcn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trang_chu);
+        btnQlttcn = (Button) findViewById(R.id.btn_qlcn);
+        btnQlttcn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TrangChu.this, QlThongtincanhan.class);
+                startActivity(intent);
+            }
+        });
         btntchs = (Button) findViewById(R.id.btn_tracuuhoso);
         btntchs.setOnClickListener(new View.OnClickListener() {
             @Override

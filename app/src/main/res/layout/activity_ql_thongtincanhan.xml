@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hinhchao1"
+    tools:context=".QlThongtincanhan">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:background="#D8333399">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QUẢN LÝ THÔNG TIN CÁ NHÂN"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:background="@drawable/bogoc_khungct">
+        <Button
+            android:id="@+id/btn_ttcn"
+            android:text="THÔNG TIN CÁ NHÂN"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="50dp"
+            android:background="#E633332D"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_dcn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="#DA322833"
+            android:padding="50dp"
+            android:text="ĐIỂM CÁ NHÂN"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
