@@ -108,7 +108,7 @@
                 <Button
                     android:id="@+id/btn_xemdiem"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:background="@drawable/bogoc_xemdiem"
                     android:text="Xem điểm"
                     android:textColor="#fff"
