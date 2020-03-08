@@ -38,7 +38,7 @@ public class DangNhap extends AppCompatActivity {
                         } else {
                             String userid = edtcmnd.getText().toString();
                             String password = edtpw.getText().toString();
-                            String query = "select * from DangNhap where NAME='" + userid + "' and PASSWORD='" + password + "'";
+                            String query = "select * from DANGKY where tentk='" + userid + "' and matkhau='" + password + "'";
                             Statement stmt = con.createStatement();
                             ResultSet rs = stmt.executeQuery(query);
                             if (rs.next()) {

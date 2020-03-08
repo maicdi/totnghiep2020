@@ -144,24 +144,24 @@ public class TrangChu extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_dkkp) {
-
-        } else if (id == R.id.nav_dkxt) {
-
-        } else if (id == R.id.nav_tchs) {
-
-        } else if (id == R.id.nav_tthv) {
-
-        } else if (id == R.id.nav_tt) {
-
-        } else if (id == R.id.nav_qlcn) {
-
-        } else if (id == R.id.nav_qldssv) {
-
-
-        }
+//        if (id == R.id.nav_home) {
+//            // Handle the camera action
+//        } else if (id == R.id.nav_dkkp) {
+//
+//        } else if (id == R.id.nav_dkxt) {
+//
+//        } else if (id == R.id.nav_tchs) {
+//
+//        } else if (id == R.id.nav_tthv) {
+//
+//        } else if (id == R.id.nav_tt) {
+//
+//        } else if (id == R.id.nav_qlcn) {
+//
+//        } else if (id == R.id.nav_qldssv) {
+//
+//
+//        }
 
 
 
