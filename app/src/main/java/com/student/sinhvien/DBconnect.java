@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBconnect {
-    String ip = "192.168.1.106";
+    String ip = "192.168.1.107";
     String classs = "net.sourceforge.jtds.jdbc.Driver";
     String db = "DBSTUDENT";
     String un = "student";
